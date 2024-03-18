@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+    width: 100%;
+}
+section{
+    padding: 100px 0;
+    background: #122e44;
+}
+.section-title{
+    margin-bottom: 30px;
+}
+
+.section-title h2{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    transition: all.5s ease-in-out;
+}
+
+.section-title h2:hover{
+    background-color: #24caac;
+}
+
+/*! header start */
+
+header{
+    background: rgb(44, 37, 37);
+    border-bottom: 1px solid rgba(238, 238, 238, 0.801);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+#menu-bar{
+    display: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px 0;
+}
+
+.nav-links{
+    display: flex;
+}
+
+.nav-links li a{
+    margin-left: 15px;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+.nav-links li a:hover{
+    background: #24caac;
+}
+
+.logo h2 a{
+    text-transform: uppercase;
+    color: #fff;
+}
+/*! anasayfa start */
+
+.inner-home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    color: #fff;
+}
+
+.child-home{
+    flex-basis: 45%;
+}
+
+.child-home h1{
+    font-size: 50px;
+    color: #24caac;
+}
+
+.span-child{
+    color: #e0376f;
+}
+
+.child-home p{
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.btn{
+    background: #24caac;
+    padding: 12px 28px;
+    border-radius: 20px;
+    color: #fff;
+    border: 1px solid #24caac;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.btn:hover{
+    background: transparent;
+ letter-spacing: 2px;   
+}
+
+/*! yazılımlar start */
+
+.innersoftware{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;  
+}
+
+.innersoftware-child{
+    flex-basis: 31%;
+    color: #fff;
+    padding: 25px 20px;
+    background: rgba(55, 66, 80, 0.281);
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: .5s all ease-in;
+ 
+}
+
+.innersoftware-child:hover{
+    border: 1px solid #24caac;
+  
+}
+
+.innersoftware-child .icon{
+    font-size: 25px;
+    color: #24caac;
+}
+
+.innersoftware-child h3{
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.innersoftware-child p{
+    line-height: 25px;
+    font-size: 16px;
+}
+
+/*! sertifikalarım */
+
+.inner-courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+width: 80%;
+margin: 0 auto;
+}
+
+.child-courses{
+    flex-basis: 24%;
+    color: #fff;
+    padding: 20px 10px;
+    background: rgba(55, 66, 80, 0.281);
+    border: 1px solid  transparent;
+    transition: .3s;
+    border-radius: 5px;
+}
+
+.child-courses:hover{
+    border: 1px solid #24caac;
+    scale: 1.03;
+    cursor: pointer;
+}
+
+.child-courses .detail{
+    display: flex;
+    justify-content: space-between;
+}
+
+.child-courses .detail ul{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+
+.child-courses .detail ul li{
+    color: gold;
+}
+
+/*! basarılar */
+
+.inner-achivement{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.child-achivement{
+    flex-basis: 40%;
+}
+
+.child-achivement img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.child-achivement2{
+    flex-basis: 46%;
+    display: flex;
+flex-wrap: wrap;
+text-align: center;
+justify-content: space-between;
+}
+
+.single-detail{
+    flex-basis: 48%;
+    padding: 40px 30px;
+    color: #fff;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.single-detail:hover{
+transform: scale(1.03);
+}
+
+.sd-1{
+    background-color: #EAA023;
+    margin-bottom: 20px;
+
+}
+
+.sd-2{
+    background-color: #E91E63;
+    margin-bottom: 20px;
+    
+}
+
+.sd-3{
+    background-color: #24CAAC;
+    margin-bottom: 20px;
+    
+}
+
+.sd-4{
+    background-color: #2F363E;
+    margin-bottom: 20px;
+}
+
+/*! hakkımda */
+
+.inner-reviews{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    color: #fff;
+}
+
+.review{
+    flex-basis: 46%;
+    margin-bottom: 30px;
+}
+
+.text-img{
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.text-img img{
+    border-radius: 50%;
+}
+
+.text-rew{
+    color: #24caac;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.text-rew:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*!iletişim */
+
+.inner-contact{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.child-contact{
+    flex-basis: 45%;
+}
+
+.child-contact form{
+    padding: 50px 40px;
+    background: #2F363E;
+    border-radius: 5px;
+}
+
+.child-contact form input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #24292d;
+    border: none;
+    resize: none;
+    border-radius: 25px;
+    transition: .3s ease-in;
+}
+
+.child-contact form input,textarea:focus{
+    color: #fff;
+}
+
+.child-contact form input:focus{
+    letter-spacing: 1px;
+}
+
+.child-contact form textarea:focus{
+    letter-spacing: 1px;
+}
+
+.child-contact form input:last-child{
+    margin-bottom: 0;
+    background: #24CAAC;
+    border: 1px solid #24CAAC;
+    transition: .3s;
+}
+
+.child-contact form input:last-child:hover{
+    background-color: transparent;
+    color: #000;
+}
+
+/*!footer */
+
+footer{
+    background: #24292d;
+    padding: 60px 0 20px 0;
+    color: #fff;
+}
+
+.inner-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.child-footer{
+    flex-basis: 24%;
+}
+
+
+.child-footer h3{
+    margin-bottom: 20px;
+}
+
+
+.child-footer .footer-social{
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+
+}
+
+.footer-social li{
+    padding: 15px;
+}
+
+.child-footer ul li{
+    flex-basis: 15%;
+}
+
+.child-footer ul li a{
+    color: #fff;
+
+}
+
+.quick-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.quick-links li {
+    padding: 10px;
+}
+
+.quick-links li a:hover{
+    text-decoration: underline;
+}
+
+.footer-contact li i{
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.child-footer form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.child-footer  form input{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    background: #2F363E;
+    border: none;
+}
+
+.child-footer  form input:focus{
+    color: #fff;
+}
+
+.child-footer  form input:last-child{
+    background: #24CAAC;
+    margin: 0;
+    border: 1px solid #24CAAC;
+    color: #fff;
+    transition: .3s;
+}
+
+.child-footer  form input:last-child:hover{
+    background: transparent;
+    border: 1px solid #24CAAC;
+}
+
+
+
+
+
+/* responsive */
+
+@media screen and (max-width:770px) {
+    .navbar{
+        width: 90%;
+    }
+    .logo h2 a{font-size: 20px;
+    }
+    #menu-bar{
+        display: grid;
+        color: #fff;
+        position: absolute;
+        right: 5%;
+        top: 20%;
+        border: 1px solid #fff;
+        width: 30px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+.nav-links{
+    flex-direction: column;
+    position: absolute;
+    background: #24292d;
+    width: 100%;
+    left: 0;
+    padding: 0;
+}
+.nav-links li a{
+    border-bottom: 1px solid #fff;
+    display: block;
+    border-radius: 0;
+    padding: 10px 0;
+    margin: 0 20px;
+}
+.nav-links li:last-child a{
+    border-bottom: none;
+}
+.inner-home{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+.child-home{
+    flex-basis: 100%;
+}
+.child-home:last-child{
+    margin-bottom: 20px;
+}
+.child-home h1{
+    font-size: 30px;
+    line-height: 35px;
+}
+.child-home p{
+    font-size: 20px;
+}
+
+/* yazılımlar */
+
+.innersoftware-child{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+}
+
+
+/* sertifikalar */
+.child-courses{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+}
+/* basarılarım */
+.child-achivement{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+}
+.child-achivement2{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+}
+.single-detail{
+    flex-basis: 100%;
+}
+.child-achivement .sd-4{
+    margin-bottom: 20px;
+}
+/* hakkımda */
+.review{
+    flex-basis: 100%;
+    margin-bottom: 40px;
+}
+.review:last-child{
+    margin-bottom: 0;
+}
+/* iletişim */
+.child-contact{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+}
+/* footer */
+.child-footer{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+}
+.child-footer h3{
+    margin-bottom: 10px;
+}
+.child-footer p{
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+}
